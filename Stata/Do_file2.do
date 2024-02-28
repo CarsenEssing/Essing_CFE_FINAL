@@ -18,3 +18,7 @@ gen flipper_bodymass_ratio = flipper_length_mm / body_mass_g
 #OLS regression
 
 regress flipper_length_mm body_mass_g
+
+#make a graph
+
+graph box body_mass_g, over(sex)
